@@ -1,0 +1,49 @@
+#welcomeMsg {
+  text-align: center;
+
+}
+
+#siteSelectionButtons {
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  padding: 1.5em;
+
+}
+.siteButton {
+  padding: 20px 15px;
+  font-size: 1.5em;
+  color: purple;
+  background-color: hsl(rgb(253, 85, 253));
+  margin: 2px;
+  cursor: pointer;
+  transition: background-color 0.28s;
+  border-radius: 5px;
+}
+
+.siteButton:hover{
+  background-color: rgb(230, 173, 255);
+
+}
+
+#adminPanelDiv{
+  padding: 3px;
+  margin: auto;
+  border-radius: 7px;
+
+}
+
+.adminPanelBtnClass {
+  transition: background-color 0.28s;
+  padding: 5px 5px;
+  font-size: 0.8em;
+  color: red;
+  background-color: hsl(rgb(249, 167, 122));
+  margin: 2px;
+  cursor: pointer;
+  transition: background-color 0.28s;
+  border-radius: 5px;
+}
+.adminPanelBtnClass:hover{
+  background-color: rgb(227, 67, 67);
+  color: white;
+}
